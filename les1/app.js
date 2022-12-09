@@ -2,21 +2,19 @@ class App
 {
     runApplication()
     {
-        let appNaam = "MarinusIsSinging";
-        let versiernummer = 0.9;
-        let versiedatum = new Date();
-        let atheur = "JanIsCool";
-        let copyright = "RobinIsOokCool";
-        let distributeur = "MaarGerbenIsHetCoolst";
-        let darkmode = true;
-        console.log(appNaam);
-        console.log(versiernummer);
-        console.log(versiedatum);
-        console.log(atheur);
-        console.log(copyright);
-        console.log(distributeur);
-        console.log(darkmode);
+        let title = document.getElementById(titleIp);
+        let randomGetal = math.random();
+        if (randomGetal == 0);
+        {
+            console.log("Getal is 0");
+        }
+        else if (randomGetal <= 0.2);
+        {
+            console.log("getal is kleiner dan 0.2")
+        }
     }
+    
+    //dit is code commentaar voor javascript
 }
 
 let app = new App();
