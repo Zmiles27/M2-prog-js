@@ -302,30 +302,10 @@ class App
 
         g.beginPath();
         g.fillStyle = "#000000";
-        g.moveTo(1600,190);
-        g.lineTo(1620,190);
-        g.lineTo(1620,170);
-        g.lineTo(1600,170);
-        g.closePath();
-        g.stroke();
-        g.fill();
-
-        g.beginPath();
-        g.fillStyle = "#000000";
-        g.moveTo(1640,190);
-        g.lineTo(1660,190);
-        g.lineTo(1660,170);
-        g.lineTo(1640,170);
-        g.closePath();
-        g.stroke();
-        g.fill();
-
-        g.beginPath();
-        g.fillStyle = "#000000";
-        g.moveTo(1680,190);
-        g.lineTo(1700,190);
-        g.lineTo(1700,170);
-        g.lineTo(1680,170);
+        g.moveTo(1690,190);
+        g.lineTo(1710,190);
+        g.lineTo(1710,170);
+        g.lineTo(1690,170);
         g.closePath();
         g.stroke();
         g.fill();
